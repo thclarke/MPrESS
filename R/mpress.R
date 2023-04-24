@@ -70,7 +70,7 @@ power.est = function(in.phyloseq, metadata.var, metadata.vals, start.n=5, alpha 
   }
 
   #Step one and a ha;f
-  if (!tax.val %in% rank_names(in.phylosq)){
+  if (!lc(tax.val) %in% lc(rank_names(in.phylosq))){
     cat(paste("Cannot locate ", tax.val, " in in.phyloseq. Using the full OTU table in submitted data\n", sep=""))
   }
   else{
