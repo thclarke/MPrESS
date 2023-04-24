@@ -1,0 +1,10 @@
+Package: mpress
+Type: Package
+Title: Microbiome Power Estimation with Sampling and Simulation
+Version: 1.0.0
+Authors@R: person("Thomas", "Clarke", email = "tclarke@jcvi.org", role = c("aut", "cre"))
+Description: Given a phyloseq representation of a microbiome complete with metadata, MPrESS returns the estimated power to detect differences between samples with different metadata values either by sampling or by simulation if there are insufficient samples.
+Depends: R(>= 3.4.0), ggplot2, phytools, phyloseq(>= 1.16), vegan, HMP, ape, DESeq2
+License: GPL-2
+LazyData: true
+RoxygenNote: 7.2.1
