@@ -9,7 +9,7 @@ MPrESS can be installed using the install_git command in devtools.  The example 
 R
 >library(devtools)
 >library(git2r)
->install_git("https://github.com/JCVenterInstitute/MPrESS.git")
+>install_git("https://github.com/thclarke/MPrESS.git")
 >quit()
 ```
 
