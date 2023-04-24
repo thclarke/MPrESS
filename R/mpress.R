@@ -190,6 +190,7 @@ print.mpress <- function(x, type="runtime")
     else{
       write("Type is not recognized. Please use either runtime or otu\n");
     }
+  }
 }
 
 #' summary.mpress
