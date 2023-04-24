@@ -1,4 +1,4 @@
-# # MPrESS
+# MPrESS
 
 MPrESS (Microbiome Power Estimation with Sampling and Simulation) is an R-package which can estimate the power necessary to calculate the significant difference between two sample types in a microbiome as represented by a phyloseq class object.
 
